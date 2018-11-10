@@ -1,0 +1,50 @@
+html {
+  line-height: 1.15;
+  color:#ddd;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+    margin: 0;
+    background:#111;
+    font-family: 'DejaVuSansExtraLight' !important; 
+    font-weight: lighter; 
+    font-style: normal;
+    display:flex;
+    flex-direction:column;
+}
+main {
+    margin:40px auto;
+    max-width:950px;
+    flex: 1 0 auto;
+}
+a:link:active, a:visited:active, 
+a:link, a:visited {
+    color:#ddd;
+    text-decoration:none;
+}
+a:hover {
+    text-decoration:underline;
+    font-style:italic;
+}
+h1 {
+    font-size:6em;
+    margin-bottom:20px;
+}
+h2 {
+    font-size:4em;
+    margin: 20px 80px;
+}
+
+h3 {
+    font-size:3em;
+    margin:0 60px;
+}
+h6 {
+    font-size:1.5em;
+    margin:80px 0 0 0;
+}
+footer {
+    flex-shink:0;
+    max-width:950px;
+    margin:0 auto;
+}
